@@ -1,0 +1,12 @@
+$base-font-size: 24 !default;
+
+@function pxtorem($target-size,$context: $base-font-size) {
+  @if not unitless($target-size) {
+    //unitless(12)=>true,unitless(12px)=>false
+    $target-size: strip-units($target-size); //去掉 $target-size单位
+  }
+  @if not unitless($context) {
+    $context: strip-units($context); //去掉 $context单位
+  }
+  @return ($target-size / $context) * 1rem;
+}

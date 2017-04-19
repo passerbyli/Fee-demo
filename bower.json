@@ -1,0 +1,22 @@
+{
+  "name": "Fee-demo",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "lihaomin <859515463@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2",
+    "angular": "1.6.2",
+    "bootstrap": "^3.3.7"
+  }
+}

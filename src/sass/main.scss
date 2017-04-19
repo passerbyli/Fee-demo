@@ -1,0 +1,38 @@
+/*变量
+---------------
+设置变量。包括颜色和间距
+--------------- */
+@import 'utils/variables';
+@import 'utils/reset';
+/*
+---------------
+工具和帮助
+--------------- */
+@import 'utils/functions';
+@import 'utils/mixins';
+@import "utils/iconfont";
+@import 'utils/public';
+/*基本样式
+---------------
+设置基本样式. 包括排版,图片,表单和 Icons.
+--------------- */
+@import 'components/actionsheet';
+@import 'components/badge';
+@import 'components/button';
+@import 'components/cell';
+@import 'components/dialog';
+@import 'components/footer';
+@import 'components/form';
+@import 'components/grids';
+@import 'components/header';
+@import 'components/icon';
+@import 'components/list';
+@import 'components/navbar';
+@import 'components/tab';
+@import 'components/tabbar';
+@import 'components/table';
+/*页面样式
+---------------
+页面
+----------------*/
+@import 'pages/home';
